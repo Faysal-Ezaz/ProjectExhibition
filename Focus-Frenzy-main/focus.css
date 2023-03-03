@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 700;
+    background-image: url(images/p1-bg.png);
+    background-size: 95%;
+    height: 100vh;
+}
+.title{
+    order: 1;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    margin-top: 50px;
+    font-style: italic;
+    font-weight: 700;
+    color: rgb(243, 42, 42);
+    padding: 0;
+    cursor: pointer;
+}
+.music-operations{
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+}
+.music-operations div{
+    margin-left: 0px;
+    margin-right: 15px;
+}
+.laps{
+    order: 1;
+    flex: 2;
+    background-color: rgb(70, 68, 68);
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+.timer{
+    order: 2;
+    flex: 3;
+    background-color: rgb(70, 68, 68);
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 22px;
+}
+.focus-music{
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 50px;
+    height: 390px;
+    width: 820px;
+    background-color: rgb(250, 47, 47);
+    padding: 40px;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-content: flex-start;
+    gap: 70px;
+}
+.focus-music div{
+    cursor: pointer;
+    transition: 0.15s;
+    height: 85px;
+}
+.focus-music div:hover{
+    background-color: rgb(245, 108, 108);
+}
+.cloud-thunder{
+    margin-top: 6px;
+}
+.leaves{
+    margin-right: 0px;
+}

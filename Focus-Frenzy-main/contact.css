@@ -1,0 +1,94 @@
+body{
+    background-color: #0A2A43;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 700;
+    background-size: 95%;
+    height: 100vh;
+}
+::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 1; /* Firefox */
+  }
+.title{
+    order: 1;
+    position: relative;
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    margin-top: 50px;
+    font-style: italic;
+    font-weight: 700;
+}
+.subtext{
+    position: relative;
+    order: 2;
+    margin-left: 90px;
+    font-size: 25px;
+    margin-right: 500px;
+}
+.form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    order: 3;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.user-info{
+    order: 1;
+    display: flex;
+    flex-direction: column;
+}
+.user-info input{
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    background-color: rgb(211, 210, 210);
+    margin-right: 60px;
+    line-height: 20px;
+    border: none;
+    width: 250px;
+
+}
+.user-message{
+    order: 2;
+}
+.user-message input{
+    font-size: 15px;
+    background-color: rgb(211, 210, 210);
+    border-radius: 20px;
+    margin-right: 60px;
+    height: 67px;
+    width: 600px;
+    color: white;
+    margin-bottom: 20px;
+}
+.submit{
+    order: 3;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+input[type=text] {
+    color: black;
+    padding: 12px 20px;
+  }
+  input[type=email]{
+    color: black;
+    padding: 12px 20px;
+  }
